@@ -42,14 +42,9 @@ Key steps include:
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/Human-Activity-Prediction-for-Smart-Watches.git
-cd human-activity-smartwatch
+cd Human-Activity-Prediction-for-Smart-Watches
 
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
+# Pip install any missing dependencies
 ```
 
 ## Usage
