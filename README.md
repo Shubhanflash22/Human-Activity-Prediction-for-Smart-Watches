@@ -41,7 +41,7 @@ Key steps include:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/human-activity-smartwatch.git
+git clone https://github.com/yourusername/Human-Activity-Prediction-for-Smart-Watches.git
 cd human-activity-smartwatch
 
 # Create a virtual environment
@@ -55,23 +55,18 @@ pip install -r requirements.txt
 ## Usage
 
 1. Prepare your dataset in the required format (CSV with sensor parameters).
-2. Run the preprocessing script:
+2. Run the EDA script:
 
 ```bash
-python preprocess_data.py
+Exploratory_Data_Analysis_Code.ipynb
 ```
 
 3. Train the machine learning model:
 
 ```bash
-python train_model.py
+SHUBHAN-MITAL-ML-A1-Human-Activity-Code.ipynb
 ```
 
-4. Predict activities on new smartwatch data:
-
-```bash
-python predict_activity.py --input new_data.csv
-```
 
 ## Model
 
@@ -89,6 +84,19 @@ python predict_activity.py --input new_data.csv
 * Expand dataset with more users for better generalization.
 * Explore deep learning models (e.g., LSTM, CNN) for temporal sensor data.
 * Deploy as a real-time smartwatch application for fitness tracking.
+
+## Citation
+
+If you use this work, please cite:
+
+```bibtex
+@software{Human-Activity-Prediction-for-Smart-Watches,
+  author = {Shubhan Mital},
+  title = {Human Activity Prediction for Smart Watches},
+  year = {2025},
+  url = https://github.com/yourusername/Human-Activity-Prediction-for-Smart-Watches.git
+}
+```
 
 ## License
 
